@@ -6,12 +6,14 @@ I'm working on a lightweight, minimal, open source video editor and I want it to
 The final version of this app will be written in Rust, but I started in Python so here's some of the code I wrote for it.
 
 It works by:
+```
 Converting frames to HSV color space (better handling of lighting changes).
 Computing Hue histograms of consecutive frames.
 Measuring the Bhattacharyya distance between histograms.
 Marking frames where the difference exceeds a threshold (hist_thresh).
 Saving histograms of cut frames as PNGs (for debugging/visualization).
 Splitting the video into clips based on detected cuts.
+```
 
 Features:
 Detects hard scene cuts automatically.
