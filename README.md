@@ -22,12 +22,14 @@ Saves histogram visualizations of detected cut points.
 Easy to configure threshold (hist_thresh) for sensitivity.
 
 Requirements:
+
 Make sure you have the following installed:
 ```
 pip install opencv-python numpy matplotlib
 ```
 
 Usage:
+
 Clone or download this repository.
 Place your video file in the project folder.
 Open the script and update the following line with your video path:
@@ -45,6 +47,7 @@ You can adjust the sensitivity of the cut detection by tuning this parameter:
 hist_thresh
 ```
 The default value (0.3) is what worked well for me, but your results may vary. Feel free to play around with it.
+
 A lower value is more sensitive, and a higher value is less sensitive.
 
 Video Codec:
